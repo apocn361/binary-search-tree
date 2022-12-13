@@ -1,0 +1,15 @@
+1- [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] --> Binary-Search-Tree 
+
+root 7 olsun;
+
+  7      ->      7      ->      7      ->       7      ->      7      ->      7      ->      7      ->      7      ->      7
+ /              /              / \             / \            / \            / \            / \            / \            / \
+5              5              5   8           5   8          5   8          5   8          5   8          5   8          5   8
+              /              /               /              / \            / \            / \   \        / \   \        / \   \
+             1              1               1              1   6          1   6          1   6   9      1   6   9      1   6   9
+                                             \              \            / \            / \            / \            / \
+                                              3              3          0    3         0   3          0   3          0   3
+                                                                                                           \            / \
+                                                                                                            4          2    4
+
+-> Root değerinden başlayıp sırası ile her bir elemanı ilgili düğümler ile karşılaştırarak küçük olanı sol child, büyük olanı ise sağ child olacak şekilde yerleştirip ağaç yapısını oluşturduk.
